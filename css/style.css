@@ -11,6 +11,10 @@ body {
 
 /*********************Global Text/Padding/Margin Styles*/
 
+h1,h2,h3,h4{
+    margin: 0;
+}
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -99,13 +103,12 @@ ul li i{
     left: 0;
     height: 100%;
     width: 100%;
-    /* background-color: rgba(205, 15, 48, 0.3); */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
 
 .jumbotron .call-out-overlay h1{
-    padding-top: 160px;
+    padding-top: 200px;
     font-weight: bold;
     font-size: 46px;
     color: white;
@@ -138,14 +141,12 @@ ul li i{
 .three-props-wrapper .three-props-item h2{
     font-weight: 400;
     letter-spacing: 2.5px;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .three-props-wrapper .three-props-item p{
-    font-weight: 700;
-    letter-spacing: 2.5px;
-    font-size: 18px;
     font-weight: 100;
+    font-size: 15px;
     padding: 10px;
 }
 
@@ -155,3 +156,44 @@ ul li i{
     margin-bottom: 10px;
     font-size: 50px;
 }
+
+/*********************Footer*/
+
+footer{
+    background-color: #35424a;
+    color: #fafafa;
+    min-height: 50px;
+    margin: 0;
+}
+
+.social-links{
+    padding-bottom: 15px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background: #e8491d;
+}
+
+#footer-details{
+    margin: 15px;
+}
+
+#footer-text{
+    font-size: 14px;
+}
+
