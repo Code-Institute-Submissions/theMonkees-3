@@ -5,7 +5,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
+
+
+/*********************Global Text/Padding/Margin Styles*/
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 
 /*********************Heading*/
 .navbar {
@@ -14,9 +23,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #35424a;
     border: 0;
+    border-bottom: #e8491d 3px solid;
 }
 
 .navbar-default .navbar-collapse {
@@ -41,7 +50,7 @@ body {
 }
 
 .navbar .navbar-brand:hover {
-    color: red;
+    color: #e8491d;
 }
 
 .navbar-default .navbar-nav a {
@@ -51,7 +60,7 @@ body {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: red;
+    color: #e8491d;
     background: transparent;
 }
 
@@ -61,7 +70,7 @@ body {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: red;
+    color: #e8491d;
 }
 
 ul li i{
@@ -69,10 +78,10 @@ ul li i{
     font-size: 30px;
 }
 
-/**********************Jumbotron*/
+/*********************Home Page - Jumbotron*/
 
 .jumbotron{
-    background: url("../assets/images/monkees.jpg") no-repeat center center fixed;
+    background: url("../assets/images/monkees.jpg") no-repeat center center;
     background-size: cover;
     background-position-y: 10px;
     color: #fff;
@@ -84,25 +93,65 @@ ul li i{
     position: relative;
 }
 
-.call-out-box{
+.call-out-overlay{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    /* background-color: rgba(205, 15, 48, 0.3); */
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
-.jumbotron .call-out-box h1{
+.jumbotron .call-out-overlay h1{
     padding-top: 160px;
     font-weight: bold;
     font-size: 46px;
     color: white;
 }
 
-.jumbotron .call-out-box p{
+.jumbotron .call-out-overlay p{
     color: white;
     font-size: 26px;
     padding: 10px 5px;
 }
 
+
+/*********************Home Page - Three Callouts*/
+
+.three-props-wrapper{
+    /* background-color: #CD0F30; */
+    /* background-color: #36454f; */
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.three-props-wrapper .three-props-item{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.three-props-wrapper .three-props-item h2{
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    font-size: 28px;
+}
+
+.three-props-wrapper .three-props-item p{
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.three-props-wrapper .three-props-item i{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
