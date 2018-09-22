@@ -114,7 +114,7 @@ ul li i{
 }
 
 .jumbotron .call-out-overlay h1{
-    padding-top: 160px;
+    padding-top: 170px;
     font-weight: bold;
     font-size: 46px;
 }
@@ -128,32 +128,39 @@ ul li i{
 /*********************Home Page - Three Callouts*/
 
 .three-props-wrapper{
-    /* background-color: #CD0F30; */
-    /* background-color: #36454f; */
     background-color: #fafafa;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .three-props-wrapper .three-props-item{
     text-align: center;
     color: #0a0a0a;
     font-family: 'Roboto', sans-serif;
-    padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
+}
+
+.three-props-img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
 }
 
 .three-props-wrapper .three-props-item h2{
     font-weight: 400;
     letter-spacing: 2.5px;
-    font-size: 22px;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .three-props-wrapper .three-props-item p{
     font-weight: 100;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 16px;
+    padding: 20px 10px 10px 10px;
 }
 
 .three-props-wrapper .three-props-item i{
