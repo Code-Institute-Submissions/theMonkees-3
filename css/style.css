@@ -170,6 +170,32 @@ ul li i{
     font-size: 50px;
 }
 
+
+/*********************Booking Page - Form*/
+
+.contact-area{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.contact-heading{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.form-control{
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e8491d;
+    color: #fafafa;
+}
+
 /*********************Footer*/
 
 footer{
@@ -209,5 +235,10 @@ footer{
 
 #footer-text{
     font-size: 14px;
+}
+
+.btn{
+    background-color: #e8491d;
+    color: #fafafa;
 }
 
