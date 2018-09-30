@@ -237,6 +237,10 @@ button[type="submit"] {
     border: 2px solid #e8491d;
 }
 
+#last-item{
+    padding-bottom: 25px;
+}
+
 @media (max-width: 768px){
     .item-player{
         position: static;
