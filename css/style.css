@@ -174,7 +174,7 @@ ul li i{
 /*********************Booking Page - Form*/
 
 .contact-area{
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -247,6 +247,19 @@ button[type="submit"] {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+}
+
+
+/*********************Look Page*/
+
+.meet-band-wrapper{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.band-img{
+    width: 200px;
+    height: 160px;
 }
 
 
