@@ -174,8 +174,8 @@ ul li i{
 /*********************Booking Page - Form*/
 
 .contact-area{
-    margin-top: 60px;
-    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .contact-heading{
@@ -200,7 +200,7 @@ button[type="submit"] {
 /*********************Listen Page*/
 
 .album-container{
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .album-info-img .album-img{
@@ -253,13 +253,37 @@ button[type="submit"] {
 /*********************Look Page*/
 
 .meet-band-wrapper{
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     text-align: center;
+    background-color: salmon;
+    color: #fafafa;
 }
 
 .band-img{
     width: 200px;
     height: 160px;
+}
+
+#meet-band-heading, #band-pictures-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.band-member-name{
+    font-size: 22px;
+}
+
+.band-pictures-wrapper{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.row{
+    margin: 0;
 }
 
 
