@@ -11,12 +11,12 @@ body {
 
 /*********************Global Text/Padding/Margin Styles*/
 
-/* h1,h2,h3,h4{
-    margin: 0;
-} */
-
 .uppercase{
     text-transform: uppercase;
+}
+
+.row{
+    margin: 0;
 }
 
 
@@ -241,14 +241,6 @@ button[type="submit"] {
     padding-bottom: 25px;
 }
 
-@media (max-width: 768px){
-    .item-player{
-        position: static;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
-
 
 /*********************Look Page*/
 
@@ -260,9 +252,19 @@ button[type="submit"] {
     color: #fafafa;
 }
 
-.band-img{
+.seperator{
+    width: 60px;
+    height: 6px;
+    background-color: #e8491d;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.band-member-img{
     width: 200px;
     height: 160px;
+    border: 2px solid #fafafa;
 }
 
 #meet-band-heading, #band-pictures-heading{
@@ -270,11 +272,21 @@ button[type="submit"] {
     font-weight: 400;
     font-size: 30px;
     font-style: italic;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .band-member-name{
     font-size: 22px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.row-one{
+    margin-bottom: 30px;
+}
+
+.row-two{
+    margin-bottom: 20px;
 }
 
 .band-pictures-wrapper{
@@ -282,10 +294,12 @@ button[type="submit"] {
     text-align: center;
 }
 
-.row{
-    margin: 0;
+.band-pictures-img{
+    width: 280px;
+    height: auto;
+    padding: 2px;
+    border: 2px solid #e8491d;
 }
-
 
 /*********************Footer*/
 
@@ -333,3 +347,24 @@ footer{
     color: #fafafa;
 }
 
+
+/*********************Media Queries*/
+
+@media (max-width: 768px){
+    /* Music Page */
+    .item-player{
+        position: static;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* Look Page */
+    .band-pictures-img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row-one{
+        margin-bottom: 0;
+    }
+}
