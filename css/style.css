@@ -154,13 +154,14 @@ ul li i{
     letter-spacing: 2.5px;
     font-size: 23px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .three-props-wrapper .three-props-item p{
     font-weight: 100;
     font-size: 16px;
-    padding: 20px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .three-props-wrapper .three-props-item i{
@@ -351,6 +352,12 @@ footer{
 /*********************Media Queries*/
 
 @media (max-width: 768px){
+
+    /* Home Page */
+    .three-props-wrapper .three-props-item p{
+        font-weight: 400;
+    }
+
     /* Music Page */
     .item-player{
         position: static;
