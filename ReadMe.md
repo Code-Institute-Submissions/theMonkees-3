@@ -15,7 +15,10 @@ From the above project brief, I have come up with the following user stories:
 - As a fan I would like to be able to contact the Band regarding performing at events i.e. Weddings, Christmas parties etc.
 - Provide links to Band social media: Facebook, Twitter & YouTube Pages.
 
-Initial mockups were made using Balsamiq software to aid in the creation of the website. The mockups can be found in the **Mockups** folder. 
+### Mockups
+
+Initial mockups were made using **Balsamiq** software to aid in the creation of the website; a basic mockup was made of each web page. 
+- The mockups can be found in the **Mockups** folder. 
 
 ## Features
 - Music - allow Fans to listen to Band music, by navigating to the 'Listen' page.
@@ -36,6 +39,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **Font Awesome** to provide icons for the 'OUR SOCIALS' links. 
 - [Roboto Font](https://fonts.google.com/specimen/Roboto)
     - The website uses **Roboto** as the main font for all typography. 
+- [Balsamiq](https://fonts.google.com/specimen/Roboto)
+    - This tool was used to create the mockups of the website at the beginning of the project. 
 
 ## Testing
 
@@ -49,17 +54,26 @@ Testing scenarios run:
     1. Go to the "Look" page.
     2. Observe if all images display correctly.
     3. Observe images are positioned correctly i.e. no overlapping of images etc.
+	4. Follow steps 2 - 3 again, however, this time for different screen sizes i.e. Phone, Tablet, Desktop etc.
 
 3. Listening to Music:
     1. Go to the "Listen" page.
-    2. Navigate your mouse cursor to the play button of your chosen song and click the play button.
-    3. Observe if audio plays correctly for all listed songs.
+    2. Navigate your mouse cursor to the play button of your chosen song and click the play button. Music should play fine.
+	3. Click the mute (speaker) button and observe if song successfully mutes.
+    4. Click the play and then the pause button and observe if the song stops playing.
+	5. Repeat steps 2 - 4 for all listed songs.
 
 4. Booking form:
-    1. Go to the "Book" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    1. Go to the "Book" page.
+    2. Try to submit the empty form and verify that an error message about the required fields appears.
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
+    4. Try to submit the form with all valid inputs and verify that a success message appears.
+
+5. Typography:
+	1. Go to the *Home* page.
+	2. Have a look at the text and observe if all text is clearly visible i.e. is it too small, too big.
+	3. Follow step 2 again, however, this time do the same for different screen sizes i.e. Phone, Tablet, Desktop etc.
+	4. Follow steps 2 - 3 for all pages. Is the the typography consistent across all pages? Is it readable on small screen devices?
 
 ### Screen Size & Different Browsers
 
@@ -69,6 +83,8 @@ Using the Debugger tools on Google Chrome I was able to view the website in diff
 - 360px X 640px (WxH)
 - 768px X 1024px (WxH)
 - 1024px X 1366px (WxH)
+
+Test's were run for various screen sizes, these are listed in the above **Testing** section.
 
 On smaller screen sizes i.e. when the width is 768px or less, the website switches to a stacked view to maintain a consistent look.
 
