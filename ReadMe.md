@@ -100,7 +100,7 @@ Multi browser testing was carried out to ensure there is consistency across diff
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Edge
-- Internet Explorer v11 - The 'Listen' page doesn't work well with IE v11; the audio doesn't seem to load and throws an error. A note has been made to let users know to avoid using this browser.
+- Internet Explorer v11
 
 ## Deployment
 
