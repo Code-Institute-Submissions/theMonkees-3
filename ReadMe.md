@@ -2,6 +2,12 @@
 
 A fully responsive website for a legendary Band called 'TheMonkees'. The website acts as a hub for the Band to reach out to their adoring fans.
 
+## Demo
+
+To view the project in action, visit the following link:
+
+https://ezat-r.github.io/theMonkees/
+
 ## UX
 
 From the brief: "The band is a 1960’s rock band and have around 50 years experience of performing live at numerous events around the world.
@@ -99,10 +105,6 @@ Multi browser testing was carried out to ensure there is consistency across diff
 ## Deployment
 
 The website was deployed using GitHub pages. 
-
-To view the project in action, visit the following link:
-
-https://ezat-r.github.io/theMonkees/
 
 
 ## Credits
